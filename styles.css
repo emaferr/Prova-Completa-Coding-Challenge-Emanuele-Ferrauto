@@ -1,0 +1,141 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+ }
+body {
+		/* sfondo pagina richiamato l'immagine e dandogli le proprietà per coprire la pagina */
+	background-image:url(ebackground_1.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.contenuto {
+	/* Dichiarazione della sezione contentente i contenuti e sfondo nero */
+	background-color:rgba(0, 0, 0, 0.5);
+	width:60%;
+	height:90%;
+	position:relative;
+	border-radius:21px;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+.logo {
+	/* Richiamo il logo e ne attribuisco le dimensioni */
+	position:relative;
+	width:20%;
+	height:auto;
+	margin-left: 40%;
+	margin-right: 40%;
+	margin-top: 5%;
+}
+.titolo {
+	/* Stile del titolo del sito */
+	display: block;
+	position:relative;
+	width:100%;
+	left:0px;
+	top:20%;
+	font-family:Arial;
+	text-align:center;
+	font-size:29px;
+	letter-spacing:0;
+	color:rgba(0, 221, 0, 1);;
+}
+.menu {
+	/* Dimensioni e stile della sezione del menu */
+	display: block;
+	text-align: center;
+	position:relative;
+	width:80%;
+	height:45px;
+	left:0px;
+	top:1%;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-top: 11.5px;
+	background-color:rgba(0, 221, 0, 1);
+	border-radius:6px;
+}
+.schede{
+	display: block;
+	position:relative;
+	width:80%;
+	height:auto;
+	margin-top: 30px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.label{
+	font-family:Arial;
+	font-size:24px;
+	color:rgba(255, 255, 255, 1);
+}
+.scheda1{
+	display: block;
+	margin-top: 30px;
+}
+.scheda1-1 {
+	/* barra carica del monopattino */
+	display: block;
+	background-color:rgba(245, 180, 83, 1);
+	width:30%;
+	height:30px;
+	border-radius:6px;
+	margin-top: 10px;
+}
+.scheda1-2 {
+	/* Informazioni del monopattino */
+	display: block;
+	color:rgba(255, 255, 255, 1);
+	width:350px;
+	font-family:Arial;
+	text-align:left;
+	font-size:16px;
+}
+.scheda2{
+	display: block;
+	margin-top: 30px;
+}
+.scheda2-1 {
+	/* barra carica del monopattino */
+	display: block;
+	background-color:rgba(0, 221, 0, 1);
+	width:60%;
+	height:30px;
+	border-radius:6px;
+	margin-top: 10px;
+}
+.scheda2-2 {
+	/* Informazioni del monopattino */
+	display: block;
+	color:rgba(255, 255, 255, 1);
+	width:350px;
+	font-family:Arial;
+	text-align:left;
+	font-size:16px;
+}
+.scheda3{
+	display: block;
+	margin-top: 30px;
+}
+.scheda3-1 {
+	/* barra carica del monopattino */
+	display: block;
+	background-color:rgba(190, 65, 65, 1);
+	width:10%;
+	height:30px;
+	border-radius:6px;
+	margin-top: 10px;
+}
+.scheda3-2 {
+	/* Informazioni del monopattino */
+	display: block;
+	color:rgba(255, 255, 255, 1);
+	width:350px;
+	font-family:Arial;
+	text-align:left;
+	font-size:16px;
+}
